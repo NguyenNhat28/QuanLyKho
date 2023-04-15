@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2613C25-662E-40AA-8203-8B3C7A0D9240}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLBH</RootNamespace>
+    <AssemblyName>QLBH</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\CTPX.cs" />
+    <Compile Include="BLL\NhaCC.cs" />
+    <Compile Include="BLL\PN.cs" />
+    <Compile Include="BLL\PX.cs" />
+    <Compile Include="BLL\VatTu.cs" />
+    <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\Providers.cs" />
+    <Compile Include="GUI\Chitietxuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Chitietxuat.Designer.cs">
+      <DependentUpon>Chitietxuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\From_DK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\From_DK.Designer.cs">
+      <DependentUpon>From_DK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Form_DN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_DN.Designer.cs">
+      <DependentUpon>Form_DN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\form_QuenMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\form_QuenMK.Designer.cs">
+      <DependentUpon>form_QuenMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Modify.cs" />
+    <Compile Include="BLL\TaiKhoan.cs" />
+    <Compile Include="GUI\MenuKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MenuKho.Designer.cs">
+      <DependentUpon>MenuKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NhaCungCap.Designer.cs">
+      <DependentUpon>NhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PhieuNhap.Designer.cs">
+      <DependentUpon>PhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PhieuXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PhieuXuat.Designer.cs">
+      <DependentUpon>PhieuXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\VatLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\VatLieu.Designer.cs">
+      <DependentUpon>VatLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Chitietxuat.resx">
+      <DependentUpon>Chitietxuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\From_DK.resx">
+      <DependentUpon>From_DK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_DN.resx">
+      <DependentUpon>Form_DN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\form_QuenMK.resx">
+      <DependentUpon>form_QuenMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MenuKho.resx">
+      <DependentUpon>MenuKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NhaCungCap.resx">
+      <DependentUpon>NhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PhieuNhap.resx">
+      <DependentUpon>PhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PhieuXuat.resx">
+      <DependentUpon>PhieuXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\VatLieu.resx">
+      <DependentUpon>VatLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="App_DNDk.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repair.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line-chart.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Annotation 2023-03-30 162057.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-resize %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conku.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

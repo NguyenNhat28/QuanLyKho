@@ -1,0 +1,53 @@
+D:\C#\QLBH\QLBH\bin\Debug\QLBH.exe.config
+D:\C#\QLBH\QLBH\bin\Debug\QLBH.exe
+D:\C#\QLBH\QLBH\bin\Debug\QLBH.pdb
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.csproj.SuggestedBindingRedirects.cache
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.VatLieu.resources
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.exe
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.DangKy.resources
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.DangNhap.resources
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.QuenMatKhau.resources
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.GUI.PhieuXuat.resources
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.GUI.Chitietxuat.resources
+D:\C#\QLBH\QLBH\obj\Debug\QLBH.GUI.MenuKho.resources
+D:\FIle Code C#\QLBH\QLBH\bin\Debug\QLBH.exe.config
+D:\FIle Code C#\QLBH\QLBH\bin\Debug\QLBH.exe
+D:\FIle Code C#\QLBH\QLBH\bin\Debug\QLBH.pdb
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.SuggestedBindingRedirects.cache
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.Chitietxuat.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.DangKy.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.DangNhap.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.QuenMatKhau.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.MenuKho.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.PhieuXuat.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.VatLieu.resources
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.exe
+D:\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.pdb
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\bin\Debug\QLBH.exe.config
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\bin\Debug\QLBH.exe
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\bin\Debug\QLBH.pdb
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.SuggestedBindingRedirects.cache
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.Chitietxuat.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.DangKy.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.DangNhap.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.QuenMatKhau.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.MenuKho.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.PhieuXuat.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.VatLieu.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.exe
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.pdb
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.NhaCungCap.resources
+C:\FileLuuTruODay\FIle Code C#\QLBH\QLBH\obj\Debug\QLBH.GUI.PhieuNhap.resources
